@@ -1,6 +1,9 @@
+import {Colors} from "@/app/_components/colors/colors";
 
 export default function Home() {
-  return (
-      <div className='text-purple-600'>Alireza Moradi Blog</div>
-  )
+    return (
+        <>
+            <Colors/>
+        </>
+    )
 }
