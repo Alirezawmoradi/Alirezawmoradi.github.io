@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eede2bf9-0b71-4dd2-9ce0-a850f968c4ad" name="Changes" comment="all configs and files changed">
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="eede2bf9-0b71-4dd2-9ce0-a850f968c4ad" name="Changes" comment="all configs and files changed" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,7 +48,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1702137180940</updated>
-      <workItem from="1702137226697" duration="707000" />
+      <workItem from="1702137226697" duration="1055000" />
     </task>
     <task id="LOCAL-00001" summary="all configs and files changed">
       <option name="closed" value="true" />
@@ -68,7 +66,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702138034192</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="all configs and files changed">
+      <option name="closed" value="true" />
+      <created>1702138322137</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1702138322137</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
