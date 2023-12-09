@@ -35,9 +35,8 @@ export default function Home() {
                         </h1>
                         <p className='text-eerieBlack font-medium lg:text-[29px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[40px] mt-2 text-eerieBlack'>
                             FrontEnd Developer
-                            <br className="sm:block hidden"/>
-                            <p className='lg:text-[17px]'>| React.js | Angular.js | Flutter |</p>
                         </p>
+                        <p className='text-eerieBlack font-medium lg:text-[15px]'>| React.js | Angular.js | Flutter |</p>
                     </div>
                     <div className="w-screen flex flex-col items-start justify-center sm:-ml-[3rem] xxs:mt-4"></div>
                     <div></div>
