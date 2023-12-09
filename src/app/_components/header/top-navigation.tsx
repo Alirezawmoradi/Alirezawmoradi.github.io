@@ -1,46 +1,35 @@
-'use client'
+'use client';
 import React from "react";
 import Link from "next/link";
 import {usePathname} from "next/navigation";
 
-const menuItems: NavigationMenuItem [] = [
+const menuItems: NavigationMenuItem[] = [
     {
-        title: 'صفحه اصلی',
-        href: '/'
-    }, {
-        title: 'مهارت ها',
-        href: '/skills'
-    }, {
-        title: 'پروژه ها',
-        href: '/projects'
-    }, {
-        title: 'سوابق تحصیلی',
-        href: '/education'
-    }, {
-        title: 'سوابق کاری',
-        href: '/experiences'
-    }, {
-        title: 'درباره من',
+        title: 'About',
         href: '/about'
     }, {
-        title: 'ارتباط با من',
+        title: 'Projects',
+        href: '/projects'
+    }, {
+        title: 'Contact',
         href: '/contact'
-    },
+    }
 ]
 export const TopNavigation: React.FC = () => {
     const pathname = usePathname();
     return (
-        <ul className='flex gap-x-8'>
+        <ul className='list-none hidden sm:flex flex-row gap-14 mt-2'>
             {
                 menuItems.map((item) => {
                     const isActive = pathname === item.href;
-                    return <li key={`navigation-${item.href}`}>
-                        <Link href={item.href}
-                              className={`dark:hover:text-primary transition-colors pb-2 ${isActive && 'border-b-2 dark:text-primary dark:border-primary/30'}`}
-                        >
-                            {item.title}
-                        </Link>
-                    </li>
+                    return (
+                        <li className={`navigation-${item.href}`}>
+                            <Link href={item.href}
+                                  className={`hover:text-taupe text-[21px] font-medium mova uppercase tracking-[3px] cursor-pointer nav-links ${isActive ? 'text-french' : 'text-eerieBlack'}`}>
+                                {item.title}
+                            </Link>
+                        </li>
+                    )
                 })
             }
         </ul>

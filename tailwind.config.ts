@@ -1,53 +1,64 @@
-import type {Config} from 'tailwindcss';
-import mixPlugin from "colord/plugins/mix";
-import {colord, extend} from "colord";
+import type {Config} from 'tailwindcss'
 
-extend([mixPlugin]);
-const generateDarkenColorFrom = (input: string, percentage = 0.07): string => colord(input).darken(percentage).toHex();
-const generateForegroundColorFrom = (input: string, percentage = 0.8): string => colord(input).mix(colord(input).isDark() ? 'white' : 'black', percentage).toHex();
 export const tailwindColors: { [key: string]: string } = {
-    current: "currentColor",
-    transparent: "transparent",
-    white: "#F9F9F9",
-    primary: "#007BEC",
-    "primary-content": "#FFFFFF",
-    "primary-focus": generateDarkenColorFrom("#007BEC"),
-    secondary: "#6c5ce7",
-    "secondary-content": "#FFFFFF",
-    "secondary-focus": generateDarkenColorFrom("#6c5ce7"),
-    accent: "#1FB2A5",
-    "accent-content": "#FFFFFF",
-    "accent-focus": generateDarkenColorFrom("#1FB2A5"),
-    neutral: "#2a323c",
-    "neutral-content": generateForegroundColorFrom("#FFFFFF"),
-    "neutral-focus": generateDarkenColorFrom("#2a323c", 0.03),
-    "base-25": "#353d47",
-    "base-50": "#2a323c",
-    "base-75": "#20272e",
-    "base-100": "#1d232a",
-    "base-200": "#191e24",
-    "base-300": "#15191e",
-    "base-content": "#A6ADBB",
-    info: "#3abff8",
-    "info-content": generateForegroundColorFrom("#3abff8"),
-    success: "#36d399",
-    "success-content": generateForegroundColorFrom("#36d399"),
-    warning: "#fbbd23",
-    "warning-content": generateForegroundColorFrom("#fbbd23"),
-    error: "#f87272",
-    "error-content": generateForegroundColorFrom("#f87272"),
-    "gradient-first": "#34eaa0",
-    "gradient-second": "#0fa2e9",
+    primary: '#050816',
+    secondary: '#aaa6c3',
+    tertiary: '#151030',
+    'black-100': '#100d25',
+    'black-200': '#090325',
+    'white-100': '#f3f3f3',
+    flashWhite: '#f4f4f6',
+    platinum: '#e6e6e9',
+    platinumLight: '#f4f4f5',
+    timberWolf: '#d4d4d8',
+    taupe: '#9999a1',
+    silver: '#d6d6d6',
+    dim: '#66666e',
+    battleGray: '#858585',
+    french: '#b5b5ba',
+    night: '#141414',
+    jet: '#292929',
+    jetLight: '#333333',
+    jetGray: '#6d6d74',
+    richBlack: '#2e2e2e',
+    eerieBlack: '#1f1f1f',
+    onyx: '#5b5b5b',
 }
 const config: Config = {
     content: [
         './src/app/**/*.{js,ts,jsx,tsx,mdx}',
     ],
+    mode: 'jit',
     theme: {
         colors: tailwindColors,
-        extend: {},
+        extend: {
+            screens: {
+                xs: '450px',
+                sm: '640px',
+                md: '768px',
+                xmd: '900px',
+                lg: '1025px',
+                xl: '1280px',
+                '2xl': '1536px',
+                '3xl': '1800px',
+            },
+            backgroundImage: {
+                'bw-map': "url('/images/backgrounds/bw-map.jpeg')",
+                'world-map': "url('/images/backgrounds/world-map.png')",
+                about:
+                    'linear-gradient(165deg, rgba(244,244,246,1) 100%, rgba(122,122,122,1) 100%)',
+                experience:
+                    "linear-gradient(135deg, rgba(244,244,246,0.5) 60%, rgba(10,10,10,0.2) 100%),url('/src/assets/backgrounds/white-abstract.png')",
+                experienceLight:
+                    'linear-gradient(137deg, rgba(244,244,246,0.5) 60%, rgba(10,10,10,0.9) 60%)',
+                hero: 'linear-gradient(135deg, rgba(244,244,246,0.8) 60%, rgba(10,10,10,0.95) 60%)',
+                'hero-mobile':
+                    'linear-gradient(137deg, rgba(244,244,246,0.8) 60%, rgba(10,10,10,1) 60%)',
+                tech: "linear-gradient(165deg, rgba(20,20,20,0.8) 100%, rgba(109,109,116,0.8) 100%), url('/src/assets/backgrounds/nairobi.png')",
+            }
+        },
+
     },
-    darkMode: 'class',
     plugins: [],
 }
 export default config

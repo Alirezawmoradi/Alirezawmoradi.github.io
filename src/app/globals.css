@@ -3,10 +3,47 @@
 @tailwind utilities;
 
 html {
-    font-family: var(--font-iranyekan);
+    font-family: var(--font-poppins);
 }
 
-:lang(en) {
-    font-family: var(--font-figtree);
+.arenq {
+    font-family: var(--font-arenq);
 }
 
+.beckman {
+    font-family: var(--font-beckman);
+}
+
+.mova {
+    font-family: var(--font-mova);
+}
+
+.overcamebold {
+    font-family: var(--font-overcamebold);
+}
+
+.overcameoutline {
+    font-family: var(--font-overcameoutline);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    color-scheme: dark;
+}
+
+.nav-links::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background: #292929;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links:hover::after {
+    width: 70%;
+}

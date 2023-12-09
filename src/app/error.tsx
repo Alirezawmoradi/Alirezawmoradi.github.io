@@ -1,8 +1,8 @@
 'use client'
 export default function Error() {
     return (
-        <h1 className='text-3xl justify-center flex items-center text-red-800'>
-            Error
-        </h1>
+        <div className="text-5xl flex justify-center items-center w-full text-red-800">
+            <h1>error</h1>
+        </div>
     )
 }
