@@ -41,12 +41,6 @@ export default function Home() {
                     <div className="w-screen flex flex-col items-start justify-center sm:-ml-[3rem] xxs:mt-4"></div>
                     <div></div>
                 </div>
-                {/*<div>*/}
-                {/*    <img className="absolute bottom-0 ml-[50vw] lg:ml-[75vw] md:ml-[60vw] xmd:ml-[60vw] 2xl:ml-[63vw] sm:h-[90vh] md:h-[70vh] xl:h-[80vh]"*/}
-                {/*         src={'/images/personal/alirezaw.png'}*/}
-                {/*        alt="shaquille"*/}
-                {/*    />*/}
-                {/*</div>*/}
             </section>
         </>
     )
