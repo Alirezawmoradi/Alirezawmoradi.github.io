@@ -23,7 +23,7 @@ export const TopNavigation: React.FC = () => {
                 menuItems.map((item) => {
                     const isActive = pathname === item.href;
                     return (
-                        <li className={`navigation-${item.href}`}>
+                        <li key={item.href} className={`navigation-${item.href}`}>
                             <Link href={item.href}
                                   className={`hover:text-taupe text-[21px] font-medium mova uppercase tracking-[3px] cursor-pointer nav-links ${isActive ? 'text-french' : 'text-eerieBlack'}`}>
                                 {item.title}

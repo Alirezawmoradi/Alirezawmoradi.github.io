@@ -2,6 +2,7 @@ import './globals.css'
 import {Poppins} from "next/font/google";
 import localFont from "next/font/local";
 import {Header} from "@/app/_components/header";
+import About from "@/app/about/page";
 
 const poppins = Poppins({
     display: 'swap',
@@ -61,10 +62,10 @@ export default function RootLayout({children,}: {
         <html lang="en"
               className={`${poppins.variable} ${arenq.variable} ${beckman.variable} ${mova.variable} ${overcamebold.variable} ${overcameoutline.variable}`}>
         <body className="flex flex-col min-h-screen font-bold uppercase">
-        <Header/>
-        <main>
+        <div className='relative z-0'>
+            <Header/>
             {children}
-        </main>
+        </div>
         </body>
         </html>
     )

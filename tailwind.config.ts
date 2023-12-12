@@ -28,7 +28,6 @@ const config: Config = {
     content: [
         './src/app/**/*.{js,ts,jsx,tsx,mdx}',
     ],
-    mode: 'jit',
     theme: {
         colors: tailwindColors,
         extend: {

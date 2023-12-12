@@ -47,3 +47,15 @@ html {
 .nav-links:hover::after {
     width: 70%;
 }
+#about {
+    margin-left: -24px;
+    font-size: 100px;
+}
+.card-gradient {
+    background: rgb(244, 244, 246);
+    background: linear-gradient(
+            158deg,
+            rgba(153, 153, 161, 1) 25%,
+            rgba(153, 153, 161, 1) 100%
+    );
+}
