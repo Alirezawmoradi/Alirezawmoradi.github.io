@@ -1,5 +1,7 @@
 'use client';
 import { motion } from "framer-motion";
+import { styles } from '@/styles';
+
 export default function Home() {
     return (
         <>
@@ -17,28 +19,22 @@ export default function Home() {
                     className="w-full h-full sm:hidden block object-cover"
                 />
             </div>
-            <section
-                className="relative flex sm:flex-row flex-col w-full h-screen mx-auto sm:bg-hero bg-hero-mobile overflow-hidden">
-                <div
-                    className='absolute inset-0 sm:top-[250px] top-[150px] lg:top-[150px] xl:top-[250px] sm:px-16 px-6 max-w-7xl mx-auto flex flex-row items-start justify-between gap-3'>
-                    <div className="flex flex-col justify-center items-center mt-5 ml-3">
-                        <div className="w-5 h-5 rounded-full bg-[#0a0a0a] sm:hidden"/>
-                        <div className="w-1 sm:h-80 h-40 bw-gradient sm:hidden"/>
-                    </div>
-
+            <section className="relative flex sm:flex-row flex-col w-full h-screen mx-auto sm:bg-hero bg-hero-mobile overflow-hidden">
+                <div className={`absolute inset-0 sm:top-[250px] top-[150px] lg:top-[150px] xl:top-[250px] ${styles.paddingX} max-w-7xl mx-auto flex flex-row items-start justify-between gap-3`}>
                     <div>
-                        <h1
-                            className='font-black text-eerieBlack lg:text-[80px] sm:text-[60px] xs:text-[50px] text-[40px] lg:leading-[90px] mt-2 text-eerieBlack font-poppins uppercase'>
+                        <h1 className={`${styles.heroHeadText} text-eerieBlack poppins uppercase`}>
                             Hi, I'm{' '}
-                            <span
-                                className="sm:text-battleGray sm:text-[37px] text-eerieBlack text-[50px] font-mova font-extrabold uppercase">
-                         Alireza Moradi
+                            <span className="sm:text-battleGray sm:text-[39px] text-eerieBlack text-[20px] mova extrabold uppercase mr-2">
+                         Alireza
+                        </span>
+                            <span className="sm:text-battleGray sm:text-[39px] text-eerieBlack text-[20px] mova extrabold uppercase">
+                         Moradi
                         </span>
                         </h1>
-                        <p className='text-eerieBlack font-medium lg:text-[29px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[40px] mt-2 text-eerieBlack'>
+                        <p className='text-eerieBlack medium lg:text-[28px] sm:text-[26px] xs:text-[20px] text-[11px] lg:leading-[40px] mt-2'>
                             FrontEnd Developer
                         </p>
-                        <p className='text-eerieBlack font-medium lg:text-[15px]'>| React.js | Angular.js | Flutter |</p>
+                        <p className='text-eerieBlack medium lg:text-[15px] text-[7px] '>| React.js | Angular.js | Flutter |</p>
                     </div>
                     <div className="w-screen flex flex-col items-start justify-center sm:-ml-[3rem] xxs:mt-4"></div>
                     <div></div>
@@ -49,7 +45,7 @@ export default function Home() {
                         alt="shaquille"
                     />
                 </div>
-                <div className="absolute xs:bottom-10 bottom-32 w-full  flex justify-center items-center">
+                <div className="absolute xs:bottom-10 bottom-1 w-full  flex justify-center items-center">
                     <a href="/about">
                         <div className="w-[35px] h-[64px] rounded-3xl border-4  border-french border-dim flex justify-center items-start p-2">
                             <motion.div
