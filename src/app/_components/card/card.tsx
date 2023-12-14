@@ -2,7 +2,7 @@ import React from "react";
 import {CardProps} from "@/app/_components/card/card.types";
 import {motion} from 'framer-motion';
 import classNames from "classnames";
-import {fadeIn} from "@/utils/motion";
+import {fadeIn} from "@/app/_components/utils/motion";
 
 
 export const Card: React.FC<CardProps> = ({index, title, className}: CardProps) => {

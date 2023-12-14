@@ -1,6 +1,6 @@
 'use client';
 import { motion } from "framer-motion";
-import { styles } from '@/styles';
+import { styles } from '@/tailwind/components/styles';
 
 export default function Home() {
     return (
@@ -31,7 +31,7 @@ export default function Home() {
                          Moradi
                         </span>
                         </h1>
-                        <p className='text-eerieBlack medium lg:text-[28px] sm:text-[26px] xs:text-[20px] text-[11px] lg:leading-[40px] mt-2'>
+                        <p className='text-eerieBlack medium lg:text-[27px] sm:text-[26px] xs:text-[20px] text-[11px] lg:leading-[40px] mt-2'>
                             FrontEnd Developer
                         </p>
                         <p className='text-eerieBlack medium lg:text-[15px] text-[7px] '>| React.js | Angular.js | Flutter |</p>
