@@ -4,8 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eede2bf9-0b71-4dd2-9ce0-a850f968c4ad" name="Changes" comment="change in folder directions">
+    <list default="true" id="eede2bf9-0b71-4dd2-9ce0-a850f968c4ad" name="Changes" comment="hero section component added&#10;snapshot of hero section component created&#10;hero section test created">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/_components/card/card.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/_components/card/card.types.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/_components/hero-section/hero-section.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/_components/hero-section/hero-section.test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/_components/hero-section/hero-section.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/_components/hero-section/hero-section.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/about/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/about/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tailwind/components/components.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/tailwind/components/components.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tailwind/components/styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +60,7 @@
       <recent name="C:\Users\alireza\WebstormProjects\Alirezawmoradi.github.io\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\alireza\WebstormProjects\Alirezawmoradi.github.io\src" />
       <recent name="C:\Users\alireza\WebstormProjects\Alirezawmoradi.github.io\src\tailwind\components" />
       <recent name="C:\Users\alireza\WebstormProjects\Alirezawmoradi.github.io\src\app\_components" />
       <recent name="C:\Users\alireza\WebstormProjects\Alirezawmoradi.github.io\public\images\personal" />
@@ -70,6 +80,8 @@
       <workItem from="1702475495607" duration="8000" />
       <workItem from="1702475567027" duration="23893000" />
       <workItem from="1702634432454" duration="321000" />
+      <workItem from="1702665301604" duration="2934000" />
+      <workItem from="1702725323247" duration="9838000" />
     </task>
     <task id="LOCAL-00001" summary="all configs and files changed">
       <option name="closed" value="true" />
@@ -151,7 +163,23 @@
       <option name="project" value="LOCAL" />
       <updated>1702566759870</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="jest added and config">
+      <option name="closed" value="true" />
+      <created>1702667045810</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1702667045810</updated>
+    </task>
+    <task id="LOCAL-00012" summary="hero section component added&#10;snapshot of hero section component created&#10;hero section test created">
+      <option name="closed" value="true" />
+      <created>1702667117968</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1702667117968</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,6 +192,8 @@
     <MESSAGE value="responsive for devices" />
     <MESSAGE value="Card component created" />
     <MESSAGE value="change in folder directions" />
-    <option name="LAST_COMMIT_MESSAGE" value="change in folder directions" />
+    <MESSAGE value="jest added and config" />
+    <MESSAGE value="hero section component added&#10;snapshot of hero section component created&#10;hero section test created" />
+    <option name="LAST_COMMIT_MESSAGE" value="hero section component added&#10;snapshot of hero section component created&#10;hero section test created" />
   </component>
 </project>

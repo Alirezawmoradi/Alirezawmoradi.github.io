@@ -1,6 +1,6 @@
 import {render} from "@testing-library/react";
 import {HeroSection} from "./hero-section";
-import {styles} from "@/tailwind/components/styles";
+import {styles} from "@/styles";
 
 describe('Hero section', () => {
     test('display the hero section', () => {

@@ -2,7 +2,6 @@ import './globals.css'
 import {Poppins} from "next/font/google";
 import localFont from "next/font/local";
 import {Header} from "@/app/_components/header";
-import About from "@/app/about/page";
 
 const poppins = Poppins({
     display: 'swap',
@@ -55,6 +54,7 @@ const overcameoutline = localFont({
     ],
     variable: '--font-overcameoutline'
 })
+
 export default function RootLayout({children,}: {
     children: React.ReactNode
 }) {
@@ -64,7 +64,9 @@ export default function RootLayout({children,}: {
         <body className="flex flex-col min-h-screen font-bold uppercase">
         <div className='relative z-0'>
             <Header/>
-            {children}
+            <main>
+                {children}
+            </main>
         </div>
         </body>
         </html>
