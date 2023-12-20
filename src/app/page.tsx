@@ -1,5 +1,4 @@
 import {HeroSection} from "@/app/_components/hero-section/hero-section";
-import {styles} from "@/styles";
 import {SkillsCardList} from "@/app/about/_components/skills-card-list";
 import {TechsItemList} from "@/app/techs/_components/techs-items-list";
 
