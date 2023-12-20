@@ -8,23 +8,27 @@ html {
     font-family: var(--font-poppins);
 }
 
-.arenq {
+.font-poppins {
+    font-family: var(--font-poppins);
+}
+
+.font-arenq {
     font-family: var(--font-arenq);
 }
 
-.beckman {
+.font-beckman {
     font-family: var(--font-beckman);
 }
 
-.mova {
+.font-mova {
     font-family: var(--font-mova);
 }
 
-.overcamebold {
+.font-overcamebold {
     font-family: var(--font-overcamebold);
 }
 
-.overcameoutline {
+.font-overcameoutline {
     font-family: var(--font-overcameoutline);
 }
 
@@ -55,6 +59,7 @@ html {
     margin-left: -24px;
     font-size: 100px;
 }
+
 #projects {
     margin-left: -2px;
     font-size: 100px;

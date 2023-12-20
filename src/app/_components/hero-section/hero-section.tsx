@@ -21,16 +21,16 @@ export const HeroSection: React.FC = () => {
             <section
                 className="relative flex sm:flex-row flex-col w-full h-screen mx-auto sm:bg-hero bg-hero-mobile overflow-hidden">
                 <div
-                    className={`absolute inset-0 sm:top-[250px] top-[150px] lg:top-[150px] xl:top-[250px] ${styles.paddingX} max-w-7xl mx-auto flex flex-row items-start justify-between gap-3`}>
+                    className='absolute inset-0 sm:top-[250px] top-[150px] lg:top-[150px] xl:top-[250px] sm:px-16 px-6 max-w-7xl mx-auto flex flex-row items-start justify-between gap-3'>
                     <div>
-                        <h1 className={`${styles.heroHeadText} text-eerieBlack poppins uppercase`}>
+                        <h1 className='font-black text-eerieBlack lg:text-[80px] sm:text-[60px] xs:text-[50px] text-[40px] lg:leading-[90px] mt-2 font-poppins uppercase'>
                             Hi, I'm{' '}
                             <span
-                                className="sm:text-battleGray sm:text-[39px] text-eerieBlack text-[20px] mova extrabold uppercase mr-2">
+                                className="sm:text-battleGray sm:text-[39px] text-eerieBlack text-[20px] font-mova extrabold uppercase mr-2">
                          Alireza
                         </span>
                             <span
-                                className="sm:text-battleGray sm:text-[39px] text-eerieBlack text-[20px] mova extrabold uppercase">
+                                className="sm:text-battleGray sm:text-[39px] text-eerieBlack text-[20px] font-mova extrabold uppercase">
                          Moradi
                         </span>
                         </h1>
