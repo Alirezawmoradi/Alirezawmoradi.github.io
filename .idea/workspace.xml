@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eede2bf9-0b71-4dd2-9ce0-a850f968c4ad" name="Changes" comment="about page started to create&#10;card component created">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="eede2bf9-0b71-4dd2-9ce0-a850f968c4ad" name="Changes" comment="some bugs fix&#10;technologies page added" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,24 +28,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/alireza/WebstormProjects/Alirezawmoradi.github.io/public/images/icons&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\alireza\\WebstormProjects\\Alirezawmoradi.github.io\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "dev",
+    "last_opened_file_path": "C:/Users/alireza/WebstormProjects/Alirezawmoradi.github.io/public/images/tech",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Users\\alireza\\WebstormProjects\\Alirezawmoradi.github.io\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\alireza\WebstormProjects\Alirezawmoradi.github.io\public\images\tech" />
       <recent name="C:\Users\alireza\WebstormProjects\Alirezawmoradi.github.io\public\images\icons" />
       <recent name="C:\Users\alireza\WebstormProjects\Alirezawmoradi.github.io\public\fonts" />
       <recent name="C:\Users\alireza\WebstormProjects\Alirezawmoradi.github.io\src" />
@@ -77,6 +76,7 @@
       <workItem from="1702665301604" duration="2934000" />
       <workItem from="1702725323247" duration="19734000" />
       <workItem from="1702798387599" duration="116000" />
+      <workItem from="1703091096819" duration="6946000" />
     </task>
     <task id="LOCAL-00001" summary="all configs and files changed">
       <option name="closed" value="true" />
@@ -182,7 +182,23 @@
       <option name="project" value="LOCAL" />
       <updated>1702748692569</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="some bugs fix&#10;technologies page added">
+      <option name="closed" value="true" />
+      <created>1703096526111</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1703096526142</updated>
+    </task>
+    <task id="LOCAL-00015" summary="some bugs fix&#10;technologies page added">
+      <option name="closed" value="true" />
+      <created>1703103951476</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1703103951485</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,6 +214,7 @@
     <MESSAGE value="jest added and config" />
     <MESSAGE value="hero section component added&#10;snapshot of hero section component created&#10;hero section test created" />
     <MESSAGE value="about page started to create&#10;card component created" />
-    <option name="LAST_COMMIT_MESSAGE" value="about page started to create&#10;card component created" />
+    <MESSAGE value="some bugs fix&#10;technologies page added" />
+    <option name="LAST_COMMIT_MESSAGE" value="some bugs fix&#10;technologies page added" />
   </component>
 </project>

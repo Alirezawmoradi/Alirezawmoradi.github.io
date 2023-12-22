@@ -1,46 +1,10 @@
 import {HeroSection} from "@/app/_components/hero-section/hero-section";
 import {SkillsCardList} from "@/app/about/_components/skills-card-list";
 import {TechsItemList} from "@/app/techs/_components/techs-items-list";
+import {Skills} from "@/data/skills";
+import {Technologies} from "@/data/technologies";
 
 export default function Home() {
-    const skills = [
-        {index: 1, title: 'Frontend Developer', icon: '/images/icons/frontend.png'},
-        {index: 2, title: 'Flutter Developer', icon: '/images/icons/flutter.svg'},
-    ];
-    const technologies = [
-        {
-            name: 'HTML 5',
-            icon: '/images/tech/html.png',
-        },
-        {
-            name: 'CSS 3',
-            icon: '/images/tech/css.png',
-        },
-        {
-            name: 'JavaScript',
-            icon: '/images/tech/javascript.png',
-        },
-        {
-            name: 'TypeScript',
-            icon: '/images/tech/typescript.png',
-        },
-        {
-            name: 'React JS',
-            icon: '/images/tech/reactjs.png',
-        },
-        {
-            name: 'Redux Toolkit',
-            icon: '/images/tech/redux.png',
-        },
-        {
-            name: 'Tailwind CSS',
-            icon: '/images/tech/tailwind.png',
-        },
-        {
-            name: 'git',
-            icon: '/images/tech/git.png',
-        },
-    ];
     return (
         <>
             <HeroSection/>
@@ -59,7 +23,7 @@ export default function Home() {
                             well as learning new technologies.
                             I strongly prefer teamwork over solo endeavors and thrive in collaborative environments.
                         </p>
-                        <SkillsCardList skills={skills}/>
+                        <SkillsCardList skills={Skills}/>
                     </div>
                 </section>
             </div>
@@ -72,7 +36,7 @@ export default function Home() {
                     </div>
                     <div>
                         {
-                            <TechsItemList techs={technologies}/>
+                            <TechsItemList techs={Technologies}/>
                         }
                     </div>
                 </section>
