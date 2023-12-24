@@ -4,32 +4,35 @@
 
 @import "../tailwind/components/components.css";
 
-html {
-    font-family: var(--font-poppins);
-}
+@layer base {
+    html {
+        font-family: var(--font-poppins);
+    }
 
-.font-poppins {
-    font-family: var(--font-poppins);
-}
+    .font-poppins {
+        font-family: var(--font-poppins);
+    }
 
-.font-arenq {
-    font-family: var(--font-arenq);
-}
+    .font-arenq {
+        font-family: var(--font-arenq);
+    }
 
-.font-beckman {
-    font-family: var(--font-beckman);
-}
+    .font-beckman {
+        font-family: var(--font-beckman);
+    }
 
-.font-mova {
-    font-family: var(--font-mova);
-}
+    .font-mova {
+        font-family: var(--font-mova);
+    }
 
-.font-overcamebold {
-    font-family: var(--font-overcamebold);
-}
+    .font-overcamebold {
+        font-family: var(--font-overcamebold);
+    }
 
-.font-overcameoutline {
-    font-family: var(--font-overcameoutline);
+    .font-overcameoutline {
+        font-family: var(--font-overcameoutline);
+    }
+
 }
 
 
