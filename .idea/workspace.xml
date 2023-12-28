@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eede2bf9-0b71-4dd2-9ce0-a850f968c4ad" name="Changes" comment="change model of local db using data file" />
+    <list default="true" id="eede2bf9-0b71-4dd2-9ce0-a850f968c4ad" name="Changes" comment="insert layer base to globals.css file">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/about/_components/skills-card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/about/_components/skills-card.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/about/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/about/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/techs/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/techs/page.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,11 +60,11 @@
       <recent name="C:\Users\alireza\WebstormProjects\Alirezawmoradi.github.io\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\alireza\WebstormProjects\Alirezawmoradi.github.io\src\types" />
       <recent name="C:\Users\alireza\WebstormProjects\Alirezawmoradi.github.io\public\fonts" />
       <recent name="C:\Users\alireza\WebstormProjects\Alirezawmoradi.github.io\src" />
       <recent name="C:\Users\alireza\WebstormProjects\Alirezawmoradi.github.io\src\tailwind\components" />
       <recent name="C:\Users\alireza\WebstormProjects\Alirezawmoradi.github.io\src\app\_components" />
-      <recent name="C:\Users\alireza\WebstormProjects\Alirezawmoradi.github.io\public\images\personal" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -78,6 +86,8 @@
       <workItem from="1702798387599" duration="116000" />
       <workItem from="1703091096819" duration="6946000" />
       <workItem from="1703260814946" duration="699000" />
+      <workItem from="1703435271122" duration="366000" />
+      <workItem from="1703723748084" duration="9549000" />
     </task>
     <task id="LOCAL-00001" summary="all configs and files changed">
       <option name="closed" value="true" />
@@ -207,7 +217,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703261454107</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="insert layer base to globals.css file">
+      <option name="closed" value="true" />
+      <created>1703435671370</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1703435671370</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,6 +243,7 @@
     <MESSAGE value="about page started to create&#10;card component created" />
     <MESSAGE value="some bugs fix&#10;technologies page added" />
     <MESSAGE value="change model of local db using data file" />
-    <option name="LAST_COMMIT_MESSAGE" value="change model of local db using data file" />
+    <MESSAGE value="insert layer base to globals.css file" />
+    <option name="LAST_COMMIT_MESSAGE" value="insert layer base to globals.css file" />
   </component>
 </project>
